@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Initialize the database with some fake data
+#
+# Usage: script/seed
+
+docker-compose run --rm web rake db:reset db:seed

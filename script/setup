@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+# Build docker image
+#
+# Usage: setup
+
+set -o errexit
+
+docker-compose build

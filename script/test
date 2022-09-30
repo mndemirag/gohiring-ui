@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+# Run the local test suite
+#
+# Usage: script/test
+
+set -o errexit
+
+docker-compose run --rm web bundle exec rspec "${@:-spec}"
+docker-compose run --rm web yarn test

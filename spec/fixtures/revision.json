@@ -1,0 +1,17 @@
+{
+  "data": {
+    "attributes": {
+      "PositionTitle": "New Title",
+      "ApplicationMethod": [
+        {
+          "Target": "apply@gohiring.com",
+          "Label": "email"
+        }
+      ],
+      "OrganizationName": "New Company Name",
+      "UserArea": {
+        "PostingID": "a59de619-aef0-4f8a-8a9f-9530adb17bef"
+      }
+    }
+  }
+}
